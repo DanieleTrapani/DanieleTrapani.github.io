@@ -29,6 +29,12 @@ a:hover {
     text-decoration: underline;
 }
 
+#odin {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+}
+
 .header {
     background-color: #1b1b3d;
     display: flex;
@@ -52,6 +58,13 @@ a:hover {
     justify-content: space-evenly;
     padding: 10rem 10rem;
     text-align: center;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
 }
 
 .category-img {
